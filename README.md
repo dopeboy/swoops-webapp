@@ -1,3 +1,5 @@
+This code powered Swoops, a new age fantasy sports league where the fans were also owners. It has now been open sourced, and you can read more about that [here](https://blog.playswoops.com/swoops-open-source-announcement/).
+
 #  Swoops
 
 ## Local development
