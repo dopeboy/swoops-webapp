@@ -1,0 +1,140 @@
+#branding h1,
+#branding h1 a:link,
+#branding h1 a:visited {
+    color: white;
+}
+
+#header {
+    background: #282828;
+    color: white;
+}
+
+#header a:link,
+#header a:visited {
+    color: white;
+}
+
+#fieldsetcollapser1 a:link, a:visited {
+    color: #white;
+
+}
+
+div.breadcrumbs {
+    background: #73fa4c;
+    color: #424543;
+}
+
+div.breadcrumbs a {
+    color: #424543;
+}
+
+div.breadcrumbs a.active {
+    color: #424543;
+}
+
+div.breadcrumbs a:focus,
+div.breadcrumbs a:hover {
+    color: #999;
+}
+
+.module h2,
+.module caption,
+.inline-group h2 {
+    background: #424543;
+    color: white;
+}
+
+h1 {
+    color: black;
+}
+
+.btn a:link,
+a:visited {
+    color: #447e9b;
+    text-decoration: none;
+}
+
+.object-tools a:link,
+.object-tools a:visited {
+    background: #73fa4c;
+    color: black;
+}
+
+a:link.active,
+a:visited.active {
+    color: #2a2a2a;
+    text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    h1 {
+        color: #eee;
+    }
+    a,
+    a:link,
+    a:visited {
+        color: #eee;
+        text-decoration: none;
+    }
+    #round_form > div > h2 > a {
+        color: #282828 !important;
+        text-decoration: none;
+    }
+}
+
+.button,
+input[type='submit'],
+input[type='button'],
+.submit-row input,
+a.button {
+    background: #73fa4c;
+    color: #424543;
+}
+
+.button.default,
+input[type='submit'].default,
+.submit-row input.default {
+    background: #73fa4c;
+    color: #424543;
+}
+
+#nav-sidebar .current-app .section:link,
+#nav-sidebar .current-app .section:visited {
+    color: white;
+    font-weight: bold;
+}
+
+.toggle-nav-sidebar {
+    background-color: #424543;
+    color: white;
+    border-right: 1px solid #424543;
+}
+
+.toggle-nav-sidebar:hover,
+.toggle-nav-sidebar:focus {
+    color: black;
+    border-color: black;
+}
+
+table {
+    width: 100%;
+}
+
+.btn {
+    background: #73fa4c;
+    color: black;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    padding: 3px 12px;
+}
+
+form div.help {
+    font-size: 14px;
+    color: #444444;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,38 @@
+# Next
+/frontend/.next
+/frontend/node_modules
+/frontend/.bablerc
+/frontend/.env.local
+*.pyc
+
+dump.sh
+restore.sh
+# Typscript compile objects
+*.tsbuildinfo
+
+# Common
+*.vscode
+*.idea
+*.DS_Store
+**/node_modules
+
+# local env variables
+.env
+
+# pyenv
+.python-version
+
+# celery
+backend/celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.db
+dump.rdb
+
+#django
+backend/staticfiles
+
+# nextjs output
+frontend/out
+pg_dump.sql
+verify_player.log
+.vercel

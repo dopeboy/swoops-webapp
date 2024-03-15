@@ -1,0 +1,77 @@
+version: '3.7'
+
+services:
+  redis:
+     image: "redis:alpine"
+     volumes:
+       - redis_data:/data
+
+  db:
+    image: postgres:15
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=swoops
+      - POSTGRES_USER=dev
+      - POSTGRES_PASSWORD=dev
+
+  backend:
+    command: "python manage.py runserver 0.0.0.0:8000"
+    stdin_open: true
+    tty: true
+    build:
+        context: ./backend
+        dockerfile: Dockerfile.app.local
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  frontend:
+    command: "yarn dev"
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.local
+    volumes:
+      - ./frontend:/app
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+
+
+  celery-beat:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.celery.local
+    command: celery --app=swoops beat --loglevel=info --max-interval=60
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app
+    depends_on:
+      - db
+      - backend
+
+  celery-worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.celery.local
+    command: celery --app=swoops worker --loglevel=info --concurrency=8 -Ofair
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app
+    depends_on:
+      - db
+      - backend
+
+volumes:
+  postgres_data:
+  redis_data:

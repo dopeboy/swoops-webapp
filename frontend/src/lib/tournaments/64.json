@@ -1,0 +1,1356 @@
+{
+    "id": 1,
+    "name": "Example Name",
+    "size": 4,
+    "reveal": true,
+    "payout": "1000",
+    "kind": "IN_SEASON",
+    "lineup_submission_cutoff": "2023-02-11T16:41:10.624945Z",
+    "reveal_date": "2023-02-11T16:41:10.624945Z",
+    "start_date": "2023-02-11T16:41:10.624945Z",
+    "end_date": "2023-02-11T16:41:10.624945Z",
+    "rounds": [
+        {
+            "series": [
+                {
+                    "team_1": {
+                        "id": 53,
+                        "name": "Mile Knigths",
+                        "wins": 7943,
+                        "losses": 2882,
+                        "path": "",
+                        "seed": 1
+                    },
+                    "team_2": {
+                        "id": 236,
+                        "name": "BUCKET HOUNDS",
+                        "wins": 2322,
+                        "losses": 3400,
+                        "path": "",
+                        "seed": 64
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 54,
+                        "name": "WHATUP DOGG",
+                        "wins": 5444,
+                        "losses": 3232,
+                        "path": "",
+                        "seed": 2
+                    },
+                    "team_2": {
+                        "id": 235,
+                        "name": "BLOCKCHAIN BULLDOGS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 63
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 55,
+                        "name": "BEER BELLY BRAWLERS",
+                        "wins": 6523,
+                        "losses": 3382,
+                        "path": "",
+                        "seed": 3
+                    },
+                    "team_2": {
+                        "id": 234,
+                        "name": "CRYPTO CRUSHERS",
+                        "wins": 1555,
+                        "losses": 2755,
+                        "path": "",
+                        "seed": 3
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 56,
+                        "name": "SILVER SURFERS",
+                        "wins": 4214,
+                        "losses": 1873,
+                        "path": "",
+                        "seed": 4
+                    },
+                    "team_2": {
+                        "id": 233,
+                        "name": "HODL GANG",
+                        "wins": 2992,
+                        "losses": 2664,
+                        "path": "",
+                        "seed": 62
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 57,
+                        "name": "CRYPTO CRUSADERS",
+                        "wins": 3122,
+                        "losses": 2465,
+                        "path": "",
+                        "seed": 5
+                    },
+                    "team_2": {
+                        "id": 232,
+                        "name": "MINER MANIACS",
+                        "wins": 1764,
+                        "losses": 3883,
+                        "path": "",
+                        "seed": 59
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 58,
+                        "name": "LITECOIN LIONS",
+                        "wins": 4521,
+                        "losses": 1990,
+                        "path": "",
+                        "seed": 6
+                    },
+                    "team_2": {
+                        "id": 230,
+                        "name": "ETHEREUM EAGLES",
+                        "wins": 3999,
+                        "losses": 2648,
+                        "path": "",
+                        "seed": 61
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 59,
+                        "name": "RIPPLE RAPTORS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 7
+                    },
+                    "team_2": {
+                        "id": 229,
+                        "name": "STELLAR STALLIONS",
+                        "wins": 2301,
+                        "losses": 4104,
+                        "path": "",
+                        "seed": 58
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 59,
+                        "name": "RIPPLE RAPTORS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 8
+                    },
+                    "team_2": {
+                        "id": 229,
+                        "name": "STELLAR STALLIONS",
+                        "wins": 2301,
+                        "losses": 4104,
+                        "path": "",
+                        "seed": 57
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 59,
+                        "name": "RIPPLE RAPTORS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 9
+                    },
+                    "team_2": {
+                        "id": 229,
+                        "name": "STELLAR STALLIONS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 56
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 65,
+                        "name": "WAVE WOLVES",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 10
+                    },
+                    "team_2": {
+                        "id": 224,
+                        "name": "ASTEROID ARMADILLOS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 55
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 71,
+                        "name": "SURGE SEAGULLS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 11
+                    },
+                    "team_2": {
+                        "id": 219,
+                        "name": "METEORIC MONKEYS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 54
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 77,
+                        "name": "SWELL SHARKS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 12
+                    },
+                    "team_2": {
+                        "id": 214,
+                        "name": "SUPERNOVA SEAHORSES",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 53
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 83,
+                        "name": "TIDAL TIGERS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 13
+                    },
+                    "team_2": {
+                        "id": 209,
+                        "name": "GALACTIC GORILLAS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 52
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 89,
+                        "name": "SURFING SCORPIONS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 14
+                    },
+                    "team_2": {
+                        "id": 204,
+                        "name": "COSMIC CRANES",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 51
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 95,
+                        "name": "RIP CURL RACCOONS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 15
+                    },
+                    "team_2": {
+                        "id": 199,
+                        "name": "SPACE SPARROWS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 50
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 101,
+                        "name": "TSUNAMI TURTLES",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 16
+                    },
+                    "team_2": {
+                        "id": 194,
+                        "name": "COSMOS COBRAS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 49
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 107,
+                        "name": "VORTEX VIPERS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 17
+                    },
+                    "team_2": {
+                        "id": 189,
+                        "name": "GALAXY GAZELLES",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 48
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 113,
+                        "name": "OCEAN OSTRICHES",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 18
+                    },
+                    "team_2": {
+                        "id": 184,
+                        "name": "PLANETARY PANTHERS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 47
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 119,
+                        "name": "SWIMMING STINGRAYS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 19
+                    },
+                    "team_2": {
+                        "id": 179,
+                        "name": "METEORITE MONGOOSES",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 46
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 125,
+                        "name": "TYPHOON TURTLES",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 20
+                    },
+                    "team_2": {
+                        "id": 174,
+                        "name": "ASTRAL AARDVARKS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 45
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 131,
+                        "name": "SURFING SQUIRRELS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 21
+                    },
+                    "team_2": {
+                        "id": 169,
+                        "name": "NEBULA NARWHALS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 44
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 137,
+                        "name": "STORM SEAGULLS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 22
+                    },
+                    "team_2": {
+                        "id": 164,
+                        "name": "STAR STINGRAYS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 43
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 143,
+                        "name": "WINDY WOMBATS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 23
+                    },
+                    "team_2": {
+                        "id": 159,
+                        "name": "SOLAR SEALS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 42
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 149,
+                        "name": "GUSTY GAZELLES",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 24
+                    },
+                    "team_2": {
+                        "id": 154,
+                        "name": "ASTEROID ARMADILLOS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 41
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 155,
+                        "name": "BREEZY BEARS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 25
+                    },
+                    "team_2": {
+                        "id": 149,
+                        "name": "SUPERNOVA SEAHORSES",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 40
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 161,
+                        "name": "TORNADO TIGERS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 26
+                    },
+                    "team_2": {
+                        "id": 144,
+                        "name": "GALACTIC GORILLAS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 39
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 167,
+                        "name": "THUNDER TURTLES",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 27
+                    },
+                    "team_2": {
+                        "id": 139,
+                        "name": "SPACE SHARKS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 38
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 173,
+                        "name": "RAGING RACCOONS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 28
+                    },
+                    "team_2": {
+                        "id": 134,
+                        "name": "COSMIC COYOTES",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 37
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 179,
+                        "name": "TYPHOON TIGERS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 29
+                    },
+                    "team_2": {
+                        "id": 129,
+                        "name": "METEORIC MONKEYS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 36
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 185,
+                        "name": "STORMY SEALS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 30
+                    },
+                    "team_2": {
+                        "id": 124,
+                        "name": "NEBULA NARWHALS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 35
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 191,
+                        "name": "HURRICANE HAWKS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 31
+                    },
+                    "team_2": {
+                        "id": 119,
+                        "name": "STARFISH STINGRAYS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 34
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 197,
+                        "name": "BLUSTERY BEARS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 32
+                    },
+                    "team_2": {
+                        "id": 114,
+                        "name": "SOLAR SHARKS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 33
+                    },
+                    "games": []
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "team_1": {
+                        "id": 53,
+                        "name": "Mile Knigths",
+                        "wins": 7943,
+                        "losses": 2882,
+                        "path": "",
+                        "seed": 1
+                    },
+                    "team_2": {
+                        "id": 236,
+                        "name": "BUCKET HOUNDS",
+                        "wins": 2322,
+                        "losses": 3400,
+                        "path": "",
+                        "seed": 32
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 54,
+                        "name": "WHATUP DOGG",
+                        "wins": 5444,
+                        "losses": 3232,
+                        "path": "",
+                        "seed": 2
+                    },
+                    "team_2": {
+                        "id": 235,
+                        "name": "BLOCKCHAIN BULLDOGS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 31
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 55,
+                        "name": "BEER BELLY BRAWLERS",
+                        "wins": 6523,
+                        "losses": 3382,
+                        "path": "",
+                        "seed": 3
+                    },
+                    "team_2": {
+                        "id": 234,
+                        "name": "CRYPTO CRUSHERS",
+                        "wins": 1555,
+                        "losses": 2755,
+                        "path": "",
+                        "seed": 30
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 56,
+                        "name": "SILVER SURFERS",
+                        "wins": 4214,
+                        "losses": 1873,
+                        "path": "",
+                        "seed": 4
+                    },
+                    "team_2": {
+                        "id": 233,
+                        "name": "HODL GANG",
+                        "wins": 2992,
+                        "losses": 2664,
+                        "path": "",
+                        "seed": 29
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 57,
+                        "name": "CRYPTO CRUSADERS",
+                        "wins": 3122,
+                        "losses": 2465,
+                        "path": "",
+                        "seed": 5
+                    },
+                    "team_2": {
+                        "id": 232,
+                        "name": "MINER MANIACS",
+                        "wins": 1764,
+                        "losses": 3883,
+                        "path": "",
+                        "seed": 28
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 58,
+                        "name": "LITECOIN LIONS",
+                        "wins": 4521,
+                        "losses": 1990,
+                        "path": "",
+                        "seed": 6
+                    },
+                    "team_2": {
+                        "id": 230,
+                        "name": "ETHEREUM EAGLES",
+                        "wins": 3999,
+                        "losses": 2648,
+                        "path": "",
+                        "seed": 27
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 59,
+                        "name": "RIPPLE RAPTORS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 7
+                    },
+                    "team_2": {
+                        "id": 229,
+                        "name": "STELLAR STALLIONS",
+                        "wins": 2301,
+                        "losses": 4104,
+                        "path": "",
+                        "seed": 26
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 59,
+                        "name": "RIPPLE RAPTORS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 8
+                    },
+                    "team_2": {
+                        "id": 229,
+                        "name": "STELLAR STALLIONS",
+                        "wins": 2301,
+                        "losses": 4104,
+                        "path": "",
+                        "seed": 25
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 59,
+                        "name": "RIPPLE RAPTORS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 9
+                    },
+                    "team_2": {
+                        "id": 229,
+                        "name": "STELLAR STALLIONS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 24
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 65,
+                        "name": "WAVE WOLVES",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 10
+                    },
+                    "team_2": {
+                        "id": 224,
+                        "name": "ASTEROID ARMADILLOS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 23
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 71,
+                        "name": "SURGE SEAGULLS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 11
+                    },
+                    "team_2": {
+                        "id": 219,
+                        "name": "METEORIC MONKEYS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 22
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 77,
+                        "name": "SWELL SHARKS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 12
+                    },
+                    "team_2": {
+                        "id": 214,
+                        "name": "SUPERNOVA SEAHORSES",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 21
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 83,
+                        "name": "TIDAL TIGERS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 13
+                    },
+                    "team_2": {
+                        "id": 209,
+                        "name": "GALACTIC GORILLAS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 20
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 89,
+                        "name": "SURFING SCORPIONS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 14
+                    },
+                    "team_2": {
+                        "id": 204,
+                        "name": "COSMIC CRANES",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 19
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 95,
+                        "name": "RIP CURL RACCOONS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 15
+                    },
+                    "team_2": {
+                        "id": 199,
+                        "name": "SPACE SPARROWS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 18
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 101,
+                        "name": "TSUNAMI TURTLES",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 16
+                    },
+                    "team_2": {
+                        "id": 194,
+                        "name": "COSMOS COBRAS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 17
+                    },
+                    "games": []
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "team_1": {
+                        "id": 53,
+                        "name": "Mile Knigths",
+                        "wins": 7943,
+                        "losses": 2882,
+                        "path": "",
+                        "seed": 1
+                    },
+                    "team_2": {
+                        "id": 236,
+                        "name": "BUCKET HOUNDS",
+                        "wins": 2322,
+                        "losses": 3400,
+                        "path": "",
+                        "seed": 16
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 54,
+                        "name": "WHATUP DOGG",
+                        "wins": 5444,
+                        "losses": 3232,
+                        "path": "",
+                        "seed": 2
+                    },
+                    "team_2": {
+                        "id": 235,
+                        "name": "BLOCKCHAIN BULLDOGS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 15
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 55,
+                        "name": "BEER BELLY BRAWLERS",
+                        "wins": 6523,
+                        "losses": 3382,
+                        "path": "",
+                        "seed": 3
+                    },
+                    "team_2": {
+                        "id": 234,
+                        "name": "CRYPTO CRUSHERS",
+                        "wins": 1555,
+                        "losses": 2755,
+                        "path": "",
+                        "seed": 14
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 56,
+                        "name": "SILVER SURFERS",
+                        "wins": 4214,
+                        "losses": 1873,
+                        "path": "",
+                        "seed": 4
+                    },
+                    "team_2": {
+                        "id": 233,
+                        "name": "HODL GANG",
+                        "wins": 2992,
+                        "losses": 2664,
+                        "path": "",
+                        "seed": 13
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 57,
+                        "name": "CRYPTO CRUSADERS",
+                        "wins": 3122,
+                        "losses": 2465,
+                        "path": "",
+                        "seed": 5
+                    },
+                    "team_2": {
+                        "id": 232,
+                        "name": "MINER MANIACS",
+                        "wins": 1764,
+                        "losses": 3883,
+                        "path": "",
+                        "seed": 12
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 58,
+                        "name": "LITECOIN LIONS",
+                        "wins": 4521,
+                        "losses": 1990,
+                        "path": "",
+                        "seed": 6
+                    },
+                    "team_2": {
+                        "id": 230,
+                        "name": "ETHEREUM EAGLES",
+                        "wins": 3999,
+                        "losses": 2648,
+                        "path": "",
+                        "seed": 11
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 59,
+                        "name": "RIPPLE RAPTORS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 7
+                    },
+                    "team_2": {
+                        "id": 229,
+                        "name": "STELLAR STALLIONS",
+                        "wins": 2301,
+                        "losses": 4104,
+                        "path": "",
+                        "seed": 10
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 59,
+                        "name": "RIPPLE RAPTORS",
+                        "wins": 2755,
+                        "losses": 3056,
+                        "path": "",
+                        "seed": 8
+                    },
+                    "team_2": {
+                        "id": 229,
+                        "name": "STELLAR STALLIONS",
+                        "wins": 2301,
+                        "losses": 4104,
+                        "path": "",
+                        "seed": 9
+                    },
+                    "games": []
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "team_1": {
+                        "id": 53,
+                        "name": "Mile Knigths",
+                        "wins": 7943,
+                        "losses": 2882,
+                        "path": "",
+                        "seed": 1
+                    },
+                    "team_2": {
+                        "id": 236,
+                        "name": "BUCKET HOUNDS",
+                        "wins": 2322,
+                        "losses": 3400,
+                        "path": "",
+                        "seed": 8
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 54,
+                        "name": "WHATUP DOGG",
+                        "wins": 5444,
+                        "losses": 3232,
+                        "path": "",
+                        "seed": 2
+                    },
+                    "team_2": {
+                        "id": 235,
+                        "name": "BLOCKCHAIN BULLDOGS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 7
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 55,
+                        "name": "BEER BELLY BRAWLERS",
+                        "wins": 6523,
+                        "losses": 3382,
+                        "path": "",
+                        "seed": 3
+                    },
+                    "team_2": {
+                        "id": 234,
+                        "name": "CRYPTO CRUSHERS",
+                        "wins": 1555,
+                        "losses": 2755,
+                        "path": "",
+                        "seed": 6
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 56,
+                        "name": "SILVER SURFERS",
+                        "wins": 4214,
+                        "losses": 1873,
+                        "path": "",
+                        "seed": 4
+                    },
+                    "team_2": {
+                        "id": 233,
+                        "name": "HODL GANG",
+                        "wins": 2992,
+                        "losses": 2664,
+                        "path": "",
+                        "seed": 5
+                    },
+                    "games": []
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "team_1": {
+                        "id": 53,
+                        "name": "Mile Knigths",
+                        "wins": 7943,
+                        "losses": 2882,
+                        "path": "",
+                        "seed": 1
+                    },
+                    "team_2": {
+                        "id": 236,
+                        "name": "BUCKET HOUNDS",
+                        "wins": 2322,
+                        "losses": 3400,
+                        "path": "",
+                        "seed": 4
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 54,
+                        "name": "WHATUP DOGG",
+                        "wins": 5444,
+                        "losses": 3232,
+                        "path": "",
+                        "seed": 2
+                    },
+                    "team_2": {
+                        "id": 235,
+                        "name": "BLOCKCHAIN BULLDOGS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 3
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "team_1": {
+                        "id": 53,
+                        "name": "Mile Knigths",
+                        "wins": 7943,
+                        "losses": 2882,
+                        "path": "",
+                        "seed": 1
+                    },
+                    "team_2": {
+                        "id": 236,
+                        "name": "BUCKET HOUNDS",
+                        "wins": 2322,
+                        "losses": 3400,
+                        "path": "",
+                        "seed": 2
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

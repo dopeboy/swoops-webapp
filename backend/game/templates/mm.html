@@ -1,0 +1,25 @@
+{% block content %}
+  <h1>Head-to-head match make queue (last 100)</h1>
+  <table border="2" cellspacing="4px">
+    <tr>
+      <td>id</td>
+      <td>Team name</td>
+      <td>Team score</td>
+      <td>Max tokens allowed</td>
+      <td>Date entered into queue (gmt)</td>
+      <td>Paired with</td>
+      <td>Date sent to simulator (gmt)</td>
+    </tr>
+    {% for q in mmq %}
+      <tr>
+          <td>{{ q.id }}</td>
+          <td>{{ q.team.name }}</td>
+          <td>{{ q.score }}</td>
+          <td>{{ q.max_tokens_allowed }}</td>
+          <td>{{ q.created_at|date:'Y-m-d H:i:s'  }}</td>
+          <td>{{ q.paired_with }}</td>
+          <td>{{ q.sent_to_simulator_at|date:'Y-m-d H:i:s'  }}</td>
+        </tr>
+    {% endfor %}
+  </table>
+{% endblock %}

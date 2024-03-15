@@ -1,0 +1,30 @@
+default_stages: [push]
+repos:
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.9.2
+    hooks:
+    - id: flake8
+-   repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        name: isort (python)
+-   repo: https://github.com/ambv/black
+    rev: 22.3.0
+    hooks:
+    - id: black
+      language_version: python3.9
+# -   repo: local
+#     hooks:
+#     - id: eslint
+#       name: eslint
+#       language: node
+#       entry: yarn run lint:frontend
+#       pass_filenames: false
+# -   repo: local
+#     hooks:
+#     - id: tsc
+#       name: tsc
+#       language: node
+#       entry: yarn run typecheck:frontend
+#       pass_filenames: false

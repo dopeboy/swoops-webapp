@@ -1,0 +1,37 @@
+{% load tz %}
+{% block content %}
+{% timezone "America/New_York" %}
+  <h1>Last 1000 users</h1>
+  <p>steps refer to the tutorial</p>
+  <table border="2" cellspacing="4px">
+    <tr>
+      <td>user id</td>
+      <td>team id</td>
+      <td>email</td>
+      <td>Social sign-in?</td>
+      <td>verified email?</td>
+      <td>Team</td>
+      <td>Joined (ET)</td>
+      <td>Referrer code</td>
+      <td>Completed tutorial?</td>
+      <td>SP</td>
+      <td>Games played</td>
+    </tr>
+    {% for q in users %}
+      <tr>
+          <td>{{ q.user_id }}</td>
+          <td>{{ q.team_id }}</td>
+          <td>{{ q.email }}</td>
+          <td>{{ q.is_social_sign_in_user |yesno:"✅, ❌" }}</td>
+          <td>{{ q.is_verified |yesno:"✅, ❌" }}</td>
+          <td>{{ q.team_name }}</td>
+          <td>{{ q.date_joined }}</td>
+          <td>{{ q.signup_referrer_code }}</td>
+          <td>{{ q.completed_at |yesno:"✅, ❌" }}</td>
+          <td>{{ q.total_sp }}</td>
+          <td>{{ q.games_played }}</td>
+        </tr>
+    {% endfor %}
+  </table>
+{% endtimezone %}
+{% endblock %}

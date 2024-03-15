@@ -1,0 +1,296 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    font-family: 'Druk wide', sans-serif;
+}
+
+@layer components {
+    .btn-base {
+        @apply uppercase font-bold font-header;
+        position: relative;
+        text-align: center;
+        line-height: 20px;
+        font-size: 16px;
+        padding: 10px 40px;
+        width: fit-content;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .btn-component {
+        @apply uppercase font-bold font-header;
+
+        position: relative;
+        text-align: center;
+        line-height: 20px;
+        font-size: 16px;
+        padding: 10px 5px;
+        width: fit-content;
+    }
+    .btn-green {
+        @apply bg-assist-green text-black;
+    }
+
+    .btn-red {
+        @apply bg-defeat-red text-white;
+    }
+
+    .btn-red:disabled,
+    .btn-red-loading {
+        @apply bg-defeat-red/64 text-white/64;
+    }
+
+    .btn-black {
+        @apply bg-none text-white border-white border-solid border-2 border-l-0 border-r-0;
+    }
+
+    .btn-black:disabled {
+        @apply text-white/64 border-white/64;
+    }
+
+    .btn-green:disabled,
+    .btn-green-loading {
+        @apply bg-assist-green/32 text-white/64;
+    }
+
+    .btn-rounded-green.disabled {
+        opacity: 60%;
+    }
+
+    .btn-white {
+        @apply bg-white text-black;
+    }
+
+    .btn-white-loading {
+        @apply bg-white/64 text-black/64;
+    }
+
+    .btn-white:disabled {
+        @apply bg-off-black text-black/64;
+    }
+
+    .roster-card {
+        @apply dark:border-white/4 border-2 box-border rounded-lg;
+    }
+    .btn {
+        @apply py-4 px-10 text-xs text-black leading-5 text-center uppercase rounded-lg cursor-pointer font-bold font-header;
+    }
+
+    .btn-outline {
+        @apply py-4 px-10 text-sm text-white leading-5 text-center  rounded-lg cursor-pointer font-extrabold font-display hover:bg-white/8;
+    }
+
+    .btn-primary {
+        @apply uppercase h-12 box-border rounded-lg;
+    }
+
+    .btn-rounded-green {
+        @apply py-4 px-10 text-xs uppercase rounded-lg font-bold font-header bg-[url('/images/box_with_clipped_green.png')] bg-center bg-no-repeat bg-scroll bg-[length:100%];
+    }
+
+    .btn-rounded-white {
+        @apply py-4 px-10 text-xs uppercase rounded-lg font-bold font-header bg-[url('/images/box_with_clipped_white.png')] bg-center bg-no-repeat bg-scroll bg-[length:100%];
+    }
+
+    .btn-rounded-grey {
+        @apply py-4 px-10 text-xs uppercase rounded-lg font-bold font-header bg-[url('/images/box_with_clipped_grey.png')] bg-center bg-no-repeat bg-scroll bg-[length:100%] text-black;
+    }
+
+    .btn-rounded-grey-white-border {
+        @apply py-4 px-10 text-xs uppercase rounded-lg font-bold font-header bg-[url('/images/box_with_clipped_grey_white_border.png')] bg-center bg-no-repeat bg-scroll bg-[length:100%] text-white;
+    }
+
+    .player-card-extra-large {
+        @apply text-4xl uppercase font-header font-bold;
+    }
+
+    .player-card-large {
+        @apply text-3xl uppercase font-header font-bold;
+    }
+
+    .heading-one {
+        @apply text-2xl uppercase font-header font-bold;
+    }
+
+    .heading-two {
+        @apply text-xl uppercase font-header font-bold;
+    }
+
+    .heading-three {
+        @apply text-lg uppercase font-header font-bold;
+    }
+
+    .heading-four {
+        @apply text-lg uppercase font-header;
+    }
+
+    .subheading-one {
+        @apply text-base uppercase font-subheading font-thin;
+    }
+
+    .subheading-two {
+        @apply text-[12px] uppercase font-subheading font-thin;
+    }
+
+    .subheading-three {
+        @apply text-[10px] uppercase font-subheading font-[50];
+    }
+
+    .detail-one {
+        @apply text-[9px] uppercase font-subheading font-[50];
+    }
+
+    .btn-text-one {
+        @apply text-sm uppercase font-subheading font-bold;
+    }
+
+    .bg-navbar {
+        @apply py-4 px-10 text-xs uppercase rounded-lg font-bold font-header bg-[url('/images/box_with_clipped_white_navbar.png')] bg-center bg-no-repeat bg-scroll bg-[length:100%_72px];
+    }
+
+    .container-xs {
+        @apply mx-auto w-full max-w-[40rem] px-2 md:px-4;
+    }
+
+    .container-md {
+        @apply mx-auto max-w-6xl w-full px-2 md:px-4;
+    }
+
+    .container-lg {
+        @apply mx-auto max-w-7xl w-full px-2 md:px-4;
+    }
+
+    .icon-btn {
+        @apply bg-white/4 rounded-lg hover:bg-white/8 cursor-pointer h-12 w-12 flex items-center justify-center;
+    }
+
+    .badge {
+        @apply py-2 px-2.5 rounded-full inline-block leading-none font-display text-[10px] text-center whitespace-nowrap align-baseline uppercase;
+    }
+
+    .label-text {
+        @apply text-base font-display;
+    }
+
+    .heroicon-sw-3 path {
+        stroke-width: 3 !important;
+    }
+
+    .collapse:focus-visible {
+        outline: 2px solid hsl(var(--nf));
+        outline-offset: 2px;
+    }
+    .collapse-arrow .collapse-title:after {
+        @apply absolute block h-2 w-2 transition-all ease-in-out rotate-[45deg] translate-y-[-100%];
+        transition-duration: 0.2s;
+        top: 50%;
+        right: 1.4rem;
+        content: '';
+        transform-origin: 75% 75%;
+        box-shadow: 2px 2px;
+        pointer-events: none;
+    }
+    [dir='rtl'] .collapse-arrow .collapse-title:after {
+        --tw-rotate: -45deg;
+    }
+    .collapse-plus .collapse-title:after {
+        @apply absolute block h-2 w-2 transition-all duration-300 ease-in-out;
+        top: 0.9rem;
+        right: 1.4rem;
+        content: '+';
+        pointer-events: none;
+    }
+
+    .collapse:not(.collapse-open):not(.collapse-close) input[type='checkbox'],
+    .collapse:not(.collapse-open):not(.collapse-close) .collapse-title {
+        @apply cursor-pointer;
+    }
+    .collapse:focus:not(.collapse-open):not(.collapse-close) .collapse-title {
+        cursor: unset;
+    }
+    .collapse-title {
+        @apply relative;
+    }
+    :where(.collapse > input[type='checkbox']) {
+        z-index: 1;
+    }
+    .collapse-title,
+    :where(.collapse > input[type='checkbox']) {
+        @apply w-full p-4 pr-12;
+        min-height: 2.75rem;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    .collapse-content {
+        @apply px-2 sm:px-4;
+        cursor: unset;
+        transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    }
+    .collapse-open :where(.collapse-content),
+    .collapse:focus:not(.collapse-close) :where(.collapse-content),
+    .collapse:not(.collapse-close) :where(input[type='checkbox']:checked ~ .collapse-content) {
+        @apply pb-4;
+        transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    }
+
+    .collapse-open.collapse-arrow .collapse-title:after,
+    .collapse-arrow:focus:not(.collapse-close) .collapse-title:after,
+    .collapse-arrow:not(.collapse-close) input[type='checkbox']:checked ~ .collapse-title:after {
+        @apply rotate-[225deg] translate-y-[-50%];
+    }
+    [dir='rtl'] .collapse-open.collapse-arrow .collapse-title:after,
+    [dir='rtl'] .collapse-arrow:focus:not(.collapse-close) .collapse-title:after,
+    [dir='rtl'] .collapse-arrow:not(.collapse-close) input[type='checkbox']:checked ~ .collapse-title:after {
+        --tw-rotate: 135deg;
+    }
+    .collapse-open.collapse-plus .collapse-title:after,
+    .collapse-plus:focus:not(.collapse-close) .collapse-title:after,
+    .collapse-plus:not(.collapse-close) input[type='checkbox']:checked ~ .collapse-title:after {
+        content: '−';
+    }
+
+    button.xmint-btn {
+        @apply flex flex-row items-center justify-center gap-2 transition-all duration-300 w-full uppercase font-[500] min-w-[200px] py-[10px] px-[30px] !text-white cursor-pointer rounded-full bg-transparent opacity-100 hover:text-white max-w-[300px];
+        color: white !important;
+        border: 3px solid #8687f1 !important;
+    }
+    button.xmint-btn:hover {
+        color: white !important;
+        border: 3px solid #8687f1 !important;
+        background-color: #8687f1 !important;
+        background-opacity: 1 !important;
+        opacity: 1 !important;
+    }
+    button.xmint-btn:disabled {
+        opacity: 0.5 !important;
+    }
+
+    /* Tabs classes - RC Tabs sucks */
+    /* div.rc-tabs.rc-tabs-top {
+        @apply flex flex-row;
+    }
+    div.rc-tabs-top > div.rc-tabs-nav > div.rc-tabs-nav-wrap > div.rc-tabs-nav-list {
+        @apply flex flex-row w-full;
+    }
+    div.rc-tabs-tab-btn {
+        @apply text-black !important;
+    }
+    div.rc-tabs-top > div.rc-tabs-nav > div.rc-tabs-nav-wrap > div.rc-tabs-nav-list > div.rc-tabs-tab {
+        @apply flex flex-row items-center w-fit !whitespace-nowrap;
+    }
+    */
+    div.rc-tabs-tab > div.rc-tabs-tab-btn {
+        @apply pb-0 pt-1;
+    } 
+
+    .donut-label > div > div> svg > text {
+        @apply heading-three;
+    }
+}
+
+@layer utilities {
+    .transform-translate-50-50 {
+        transform: translate(-50%, -50%);
+    }
+}

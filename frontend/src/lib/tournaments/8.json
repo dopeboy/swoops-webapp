@@ -1,0 +1,211 @@
+{
+    "id": 1,
+    "name": "Swooper Bowl 8",
+    "size": 4,
+    "lineup_submission_cutoff": "2023-02-11T16:41:10.624945Z",
+    "reveal_date": "2023-02-11T16:41:10.624945Z",
+    "start_date": "2023-02-11T16:41:10.624945Z",
+    "end_date": "2023-02-11T16:41:10.624945Z",
+    "rounds": [
+        {
+            "series": [
+                {
+                    "team_1": {
+                        "id": 53,
+                        "name": "Mile Knigths",
+                        "wins": 7943,
+                        "losses": 2882,
+                        "path": "",
+                        "seed": 1
+                    },
+                    "team_2": {
+                        "id": 236,
+                        "name": "BUCKET HOUNDS",
+                        "wins": 2322,
+                        "losses": 3400,
+                        "path": "",
+                        "seed": 8
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 54,
+                        "name": "WHATUP DOGG",
+                        "wins": 5444,
+                        "losses": 3232,
+                        "path": "",
+                        "seed": 2
+                    },
+                    "team_2": {
+                        "id": 235,
+                        "name": "BLOCKCHAIN BULLDOGS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 7
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 55,
+                        "name": "BEER BELLY BRAWLERS",
+                        "wins": 6523,
+                        "losses": 3382,
+                        "path": "",
+                        "seed": 3
+                    },
+                    "team_2": {
+                        "id": 234,
+                        "name": "CRYPTO CRUSHERS",
+                        "wins": 1555,
+                        "losses": 2755,
+                        "path": "",
+                        "seed": 6
+                    },
+                    "games": []
+                },
+                {
+                    "team_1": {
+                        "id": 56,
+                        "name": "SILVER SURFERS",
+                        "wins": 4214,
+                        "losses": 1873,
+                        "path": "",
+                        "seed": 4
+                    },
+                    "team_2": {
+                        "id": 233,
+                        "name": "HODL GANG",
+                        "wins": 2992,
+                        "losses": 2664,
+                        "path": "",
+                        "seed": 5
+                    },
+                    "games": []
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "team_1": {
+                        "id": 53,
+                        "name": "Mile Knigths",
+                        "wins": 7943,
+                        "losses": 2882,
+                        "path": "",
+                        "seed": 1
+                    },
+                    "team_2": {
+                        "id": 236,
+                        "name": "BUCKET HOUNDS",
+                        "wins": 2322,
+                        "losses": 3400,
+                        "path": "",
+                        "seed": 4
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                },
+                {
+                    "team_1": {
+                        "id": 54,
+                        "name": "WHATUP DOGG",
+                        "wins": 5444,
+                        "losses": 3232,
+                        "path": "",
+                        "seed": 2
+                    },
+                    "team_2": {
+                        "id": 235,
+                        "name": "BLOCKCHAIN BULLDOGS",
+                        "wins": 1234,
+                        "losses": 3501,
+                        "path": "",
+                        "seed": 3
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "team_1": {
+                        "id": 53,
+                        "name": "Mile Knigths",
+                        "wins": 7943,
+                        "losses": 2882,
+                        "path": "",
+                        "seed": 1
+                    },
+                    "team_2": {
+                        "id": 236,
+                        "name": "BUCKET HOUNDS",
+                        "wins": 2322,
+                        "losses": 3400,
+                        "path": "",
+                        "seed": 2
+                    },
+                    "games": [
+                        {
+                            "id": 25,
+                            "team_1_score": 108,
+                            "team_2_score": 77
+                        },
+                        {
+                            "id": 25,
+                            "team_1_score": 112,
+                            "team_2_score": 83
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

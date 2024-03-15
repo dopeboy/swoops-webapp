@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Druk Wide Bold';
+    src: url('../../public/fonts/Druk-Wide-Web-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Druk Wide Medium';
+    src:  url('../../public/fonts/Druk-Wide-Web-Medium.woff2') format('woff2');
+}

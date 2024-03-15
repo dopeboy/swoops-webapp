@@ -1,0 +1,104 @@
+name: backend
+
+on:
+  pull_request:
+    paths:
+      - backend/**
+
+concurrency:
+  group: ${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      -  name: Install python requirements
+         uses: ./.github/actions/poetry-install
+         with:
+           working-directory: backend
+
+      - name: Run linting
+        working-directory: backend
+        run: |
+          source $VENV
+          cp .env.example .env
+          python lint.py
+
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: circleci/postgres:13.5
+        env:
+          POSTGRES_USER: dev
+          POSTGRES_PASSWORD: dev
+          POSTGRES_DB: swoops
+        ports:
+          - 5432:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      -  name: Install python requirements
+         uses: ./.github/actions/poetry-install
+         with:
+           working-directory: backend
+
+      - name: Activate Poetry environment and set environmental variables
+        working-directory: backend
+        run: |
+            source $VENV
+            cp .env.example .env
+
+      - name: Django Accounts App Migration Checker
+        uses: hardcoretech/django-migration-checker-action@v1
+        with:
+          app-path: backend/accounts
+
+      - name: Django App API Migration Checker
+        uses: hardcoretech/django-migration-checker-action@v1
+        with:
+          app-path: backend/api
+
+      - name: Django App eth Migration Checker
+        uses: hardcoretech/django-migration-checker-action@v1
+        with:
+          app-path: backend/eth
+
+      - name: Django App Game Migration Checker
+        uses: hardcoretech/django-migration-checker-action@v1
+        with:
+          app-path: backend/game
+
+      - name: Django App Simulator Migration Checker
+        uses: hardcoretech/django-migration-checker-action@v1
+        with:
+          app-path: backend/simulator
+
+      - name: Test applying migrations
+        working-directory: backend
+        run: poetry run python manage.py migrate
+
+      - name: Test creating views
+        working-directory: backend
+        run: cat sqls/views/*.sql | poetry run python manage.py dbshell
+
+      - name: Run tests
+        working-directory: backend
+        run: poetry run pytest

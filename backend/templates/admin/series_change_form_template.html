@@ -1,0 +1,34 @@
+{% extends "admin/base_site.html" %}
+
+{% load i18n admin_urls static admin_modify %}
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" href="{% static "admin/css/forms.css" %}">{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+
+    <a href="{% url 'admin:index' %}">Home</a>
+    › <a href="/secret-room/game/">Game</a>
+    › <a href="/secret-room/game/round/">Rounds</a>
+    › <a href="/secret-room/game/round/{{ round.id }}/">{{ round }} </a>
+    › Add Team Series
+</div>
+{% endblock %}
+
+{% block content %}
+<h1>{{ round.tournament.name }} - Round {{ round.stage|add:"1" }} - Series {{ series.order }}</h1>
+<h2>Series Matchup</h2>
+
+<form action="{% if series %}{% url 'admin:change-round-series' tournament_id=tournament_id round_id=round.id series_id=series.id %}{% else %}{% url 'admin:add-round-series' round_id=round.id %}{% endif %}" method="post">
+  {% csrf_token %}
+
+  <fieldset class="module aligned ">
+      <table>
+      {{ adminform.as_table }}
+      </table>
+  </fieldset>
+  <div class="submit-row">
+      <input type="submit" value="Save">
+  </div>
+</form>
+
+{% endblock %}

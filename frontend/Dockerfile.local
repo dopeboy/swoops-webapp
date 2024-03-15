@@ -1,0 +1,10 @@
+FROM node:16.18.1-buster-slim as build
+
+WORKDIR  /app
+
+RUN apt-get -y update
+RUN apt-get -y install git
+
+COPY package.json yarn.lock ./
+
+RUN yarn
